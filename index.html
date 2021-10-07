@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jason Xie Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#contact-section">
+                        Contact Me
+                    </a>
+                </li>
+                <li>
+                    <a href="#project-section">
+                        Projects
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Image -->
+        <section class="hero">
+            <h1 class="hero__header">Jason Xie</h1>
+            <p class="hero__caption">web developer</p>
+            <div class="github-link">
+                <a href="https://github.com/jasonluxie" target="_blank">
+                    <img src="./assets/images/GitHub-Mark-120px-plus.png" alt="Github Logo">
+                </a>
+            </div>
+        </section>
+        <!-- Projects -->
+        <section id="project-section">
+            <h2>Sample Projects</h2>
+            <div class="project-section__cards">
+                <figure id="large-card">
+                    <a href="https://jasonluxie.github.io/0-PW-landing-page/" target="_blank">
+                        <img
+                        src="./assets/images/ProductLanding.png" 
+                        alt="Product Landing example" />
+                    </a>
+                    <figcaption>Product Landing</figcaption>
+                </figure>
+                <div class="small-cards">
+                    <figure>
+                        <a href="https://jasonluxie.github.io/0-PW-survey-form/" target="_blank">
+                            <img 
+                            src="./assets/images/SurveyFrom.png" 
+                            alt="Survey Form example" />
+                        </a>
+                        <figcaption>Survey Form</figcaption>
+                        </a>
+                    </figure>
+                <figure>
+                    <a href="https://jasonluxie.github.io/0-PW-technical-documentation/" target="_blank">
+                        <img 
+                        src="./assets/images/TechnicalDocumentation.png" 
+                        alt="Technical Documentation example" />
+                    </a>
+                    <figcaption>Technical Documentation</figcaption>
+                </figure>
+            </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact-section">
+            <div class="contact-section__form">
+            <h3>Contact</h3>
+            <p>To make this a smooth process, it would be very appreciated if you could describe in as much detail as possible the:
+                <ul>
+                    <li>[Purpose of Work]</li>
+                    <li>[Content of Work]</li>
+                    <li>[Deadline]</li>
+                </ul>
+            </p>
+            <form action="">
+                <div class="contact-section__boxes">
+                    <label for="" ></label>
+                    <input type="text" placeholder="Name" required></div>
+                <div class="contact-section__boxes">
+                    <label for=""></label>
+                    <input type="email" placeholder="Email" required></div>
+                <div class="contact-section__boxes">
+                    <label for=""></label>
+                    <input type="date" placeholder="Deadline" required>
+                </div>
+                <div class="contact-section__boxes" id="contact-section__message">
+                    <label for=""></label>
+                    <textarea type="text" placeholder="Message" required></textarea>
+                </div>
+                <button class="contact-section__submit" type="button">SUBMIT</button>
+            </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
