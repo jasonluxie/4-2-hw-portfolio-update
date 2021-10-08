@@ -49,20 +49,23 @@ main {
 }
 
 /* Creates hero image. Linear-Gradient darkens image so text is more visible. Background attributes to center image and make sure it doesn't repeat */
-.hero {
+.hero{
+    z-index: 0;
     padding-top: 2rem;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(./images/page-images/Hero-Image.jpg);
+        url(https://cdn.discordapp.com/attachments/678404827474296847/895862815468969984/Hero-Image.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
+.hero_z1 {
+    z-index: 1;
+}
 .hero {
     color: var(--dark-text);
     text-align: center;
@@ -143,7 +146,7 @@ a .small-card_image {
     object-fit: cover;
 }
 .deployed-app {
-    color: rgb(159, 173, 250)
+    color: rgb(159, 173, 250);
 }
 .small-cards {
     display: flex;
