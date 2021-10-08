@@ -13,20 +13,9 @@
 .navbar {
     position: fixed;
     width: 100%;
-    background-color: var(--dark-theme);
+    /* background-color: var(--dark-theme); */
     padding: 1rem;
     z-index: 1;
-}
-
-nav ul {
-    list-style-type: none;
-    /* Keeps buttons off right side */
-    margin-right: 2rem;
-}
-
-nav li {
-    display: inline;
-    float: right;
 }
 
 nav li a {
@@ -34,8 +23,12 @@ nav li a {
     padding: 1rem;
     text-decoration: none;
     color: var(--dark-text);
+    padding-top: 100%;
+    padding-bottom: 100%;
 }
-
+.nav-item_resume {
+    text-align: right;
+}
 nav li a:hover {
     background-color: #3a4155;
 }
@@ -60,7 +53,7 @@ main {
     padding-top: 2rem;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(https://picsum.photos/1600/900?grayscale);
+        url(../images/page-images/Hero-Image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,6 +93,34 @@ h2 {
 .project-section__cards {
     display: flex;
     flex-direction: column;
+    width: 75%;
+}
+
+.project-carousel {
+    width: 100%;
+    border: thin rgb(104, 104, 104) solid;
+}
+
+.carousel-text {
+    font-size: 1.3em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.carousel-title {
+    font-size: 1.8rem;
+}
+
+.small-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.small-cards_card {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 figure {
@@ -110,29 +131,20 @@ figure {
     margin: 1rem;
 }
 
-/* Cards have no color with grayscale filter until hovered in CSS line 120*/
 figure a {
     height: 400px;
     width: 400px;
-    filter: grayscale(100%);
 }
 
-figure a:hover {
-    filter: none;
-}
-
-a img {
+a .small-card_image {
     width: 400px;
     height: 400px;
     /* Image doesn't stretch when dimensions containing image are changed */
     object-fit: cover;
 }
-
-#large-card a,
-#large-card a img {
-    width: 100%;
+.deployed-app {
+    color: rgb(159, 173, 250)
 }
-
 .small-cards {
     display: flex;
     flex-direction: row;
@@ -205,7 +217,7 @@ textarea {
         margin: 1rem auto;
         text-align: center;
     }
-    
+
     /* Removed hovering from smaller devices  */
     nav li a:hover {
         background-color: var(--dark-theme);
@@ -227,7 +239,7 @@ textarea {
         display: flex;
         flex-direction: column;
     }
-    
+
     /* Changed width of box so that it's useable on smaller screens */
     .contact-section__form {
         margin: 0 auto;
