@@ -53,7 +53,7 @@ main {
     padding-top: 2rem;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../images/page-images/Hero-Image.jpg);
+        url(./images/page-images/Hero-Image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

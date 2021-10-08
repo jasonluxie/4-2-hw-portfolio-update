@@ -5,7 +5,7 @@ Updated portfolioi which now includes link to placeholder resume and uses javasc
 https://jasonluxie.github.io/4-2-hw-portfolio-update/
 ## Libraries Used
 * jQuery
-* Bootstrap
+* Bootstrapg
 ## Demonstration
 ![Demonstration of portfolio, with working links and rotating gallery. Form also clears on input](./assets/images/readme-images/updated-resume.gif)
 ## Future Development
