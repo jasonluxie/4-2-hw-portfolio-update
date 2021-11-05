@@ -103,11 +103,9 @@ h2 {
     width: 100%;
     border: thin rgb(104, 104, 104) solid;
 }
-#carousel {
-    
-}
+
 .carousel-text {
-    font-size: 1.3em;
+    font-size: 2rem;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
@@ -121,7 +119,7 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 90%;
+    max-width: 95%;
 }
 
 .small-cards_card {
