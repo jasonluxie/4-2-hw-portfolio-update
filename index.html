@@ -52,58 +52,56 @@
         </section>
         <!-- Projects -->
         <section id="project-section">
-            <h2>Some Projects</h2>
+            <h2>My Projects</h2>
             <div class="project-section__cards">
-                
-                <div id="carousel-controls" class="carousel slide project-carousel" data-bs-ride="carousel">
-                    <div id="carousel-caption" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carousel-caption" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carousel-caption" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carousel-caption" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <a href='https://github.com/jasonluxie/4-1-project-1' target='_blanks'>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="./assets/images/page-images/P1-EGS-2.png" class="d-block w-100" alt="Landing page for project showing free game and image">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5 class='carousel-text carousel-title'>Project Landing</h5>
-                              <p class='carousel-text'>Page shows image pulled from API and user input for steamID</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./assets/images/page-images/P1-EGS-1.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5 class='carousel-text carousel-title'>Instructions Modal</h5>
-                              <p class='carousel-text'>Instruction Modal on page load which guides user on how to use to application</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="./assets/images/page-images/P1-EGS-3.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5 class='carousel-text carousel-title'>Information page to claim game</h5>
-                              <p class='carousel-text'>Responsively loaded news and information about the game pulled from several APIs</p>
-                            </div>
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="./assets/images/page-images/project-2-dnd-char-tracker.gif" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="carousel-text">D&D Character Tracker for DMs</h5>
                           </div>
                         </div>
-                    </a>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-caption" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-caption" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
+                        
                       </div>
-                    </figure>
-                </div>
+                    </div>
+                  </div>
                 <div class="small-cards">
+                    <figure class='small-cards_card'>
+                        <a href="https://github.com/jasonluxie/4-1-project-1" target="_blank">
+                            <img 
+                            src="./assets/images/page-images/P1-EGS-1.png" 
+                            alt="Front-end project which relies on several APIs to call and compare data from steam and epic games" 
+                            class='small-card_image'/>
+                        </a>
+                        <figcaption>EGS Free Game Checker</figcaption>
+                        <figcaption><a class='deployed-app' href='https://github.com/jasonluxie/4-1-project-1' target='_blank'>Deployed Application</a></figcaption>
+                    </figure>
+                    <figure class='small-cards_card'>
+                        <a href="https://github.com/jasonluxie/6-1-hw-Team-Profile-Generator" target="_blank">
+                            <img 
+                            src="./assets/images/page-images/team-profile-generator.png" 
+                            alt="Back-end project which takes in input from users via inquirer to build a static html page with team members" 
+                            class='small-card_image'/>
+                        </a>
+                        <figcaption>EGS Free Game Checker</figcaption>
+                        <figcaption><a class='deployed-app' href='https://github.com/jasonluxie/6-1-hw-Team-Profile-Generator' target='_blank'>Github Repository</a></figcaption>
+                    </figure>
+                    <figure class='small-cards_card'>
+                        <a href="https://github.com/jasonluxie/6-2-hw-note-taker" target="_blank">
+                            <img 
+                            src="./assets/images/page-images/note-taker.gif" 
+                            alt="Note taker application which runs on a local server when deployied." 
+                            class='small-card_image'/>
+                        </a>
+                        <figcaption>Note Taker</figcaption>
+                        <figcaption><a class='deployed-app' href='https://github.com/jasonluxie/6-2-hw-note-taker' target='_blank'>Github Repository</a></figcaption>
+                    </figure>
                     <figure class='small-cards_card'>
                         <a href="https://github.com/jasonluxie/3-2-hw-weather-dashboard" target="_blank">
                             <img 
                             src="./assets/images/page-images/P3-Weather-Tracker.png" 
-                            alt="Weather Dashboard with current weather and 5 day forecase" 
+                            alt="Weather Dashboard with current weather and 5 day forecast" 
                             class='small-card_image'/>
                         </a>
                         <figcaption>Weather Dashboard</figcaption>
