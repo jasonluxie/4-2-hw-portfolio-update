@@ -1,6 +1,6 @@
 # 4-2-hw-portfolio-update
 ## Description
-Updated portfolioi which now includes link to placeholder resume and uses javascript to clear form values after input. More projects have been added, and bootstrap gallery is used to feature first major project.
+Portfolio hosted on github pages which shows some of the projects I've worked on. 
 ## Deployed Application
 https://jasonluxie.github.io/4-2-hw-portfolio-update/
 ## Libraries Used
