@@ -1,0 +1,20 @@
+{
+  "name": "4-2-hw-portfolio-update",
+  "version": "1.0.0",
+  "description": "Updated portfolioi which now includes link to placeholder resume and uses javascript to clear form values after input. More projects have been added, and bootstrap gallery is used to feature first major project.\r ## Deployed Application\r https://jasonluxie.github.io/4-2-hw-portfolio-update/\r ## Libraries Used\r * jQuery\r * Bootstrap\r ## Demonstration\r ![Demonstration of portfolio, with working links and rotating gallery. Form also clears on input](./assets/images/readme-images/updated-resume.gif)\r ## Future Development\r * Add Modal which triggers upon form submit to thank user for visiting and sending me a request\r * Add offcanvas or modal which triggers resume instead of only linking to a google drive resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonluxie/4-2-hw-portfolio-update.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonluxie/4-2-hw-portfolio-update/issues"
+  },
+  "homepage": "https://github.com/jasonluxie/4-2-hw-portfolio-update#readme"
+}
